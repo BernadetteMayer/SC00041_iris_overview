@@ -40,12 +40,12 @@ You can install the required package with:
 
 ```bash
 pip install seaborn
-
+```
 ## Running the Script
 Run the script using:
 
 ```bash
-python3 iris_plotter.py
+python3 iris_overview.py
   ```
 ## License
 This project is licensed under the GNU General Public License v3.0.
