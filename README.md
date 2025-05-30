@@ -40,7 +40,7 @@ You can install the required package with:
 
 ```bash
 pip install seaborn
-
+```
 ## Running the Script
 Run the script using:
 
