@@ -23,7 +23,9 @@ The script performs the following tasks:
 
 Running the script will generate a plot similar to this (plot not shown here) and save it with a filename based on the current date and time.
 
-Example filename:
+See output folder for example output file.
+
+Example file name: 
 
 output_250528_142301.png
 
