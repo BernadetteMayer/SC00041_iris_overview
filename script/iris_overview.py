@@ -13,4 +13,4 @@ g.map_offdiag(sns.scatterplot)
 g.add_legend()
 
 # save plot
-g.figure.savefig("/home/xaemmo/teaching/reproducible_code/assignment_repos/output.png")
+g.figure.savefig("../output/output_250530_12.53.png")
