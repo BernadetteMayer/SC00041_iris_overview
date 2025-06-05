@@ -3,4 +3,7 @@ dependencies:
  - python=3.9.13
  - seaborn
  - matplotlib
+ - pip
+   pip:
+   - -r requirements.txt
 
