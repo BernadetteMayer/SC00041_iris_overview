@@ -1,4 +1,4 @@
-name: exercise3
+name: imported_exercise3
 channels:
   - defaults
   - https://repo.anaconda.com/pkgs/main
