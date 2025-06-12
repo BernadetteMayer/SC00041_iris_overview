@@ -1,4 +1,9 @@
-name: exercise3
+name: exercise3_new
+
+channels:
+ - defaults
+ - conda-forge
+
 dependencies:
  - python=3.9.13
  - seaborn
