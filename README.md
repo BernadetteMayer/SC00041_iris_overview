@@ -60,9 +60,15 @@ pip install seaborn
 ## Running the Script
 Run the script using:
 
+<<<<<<< HEAD
 ```
 python3 iris_overview.py
 ```
+=======
+```
+python script/iris_overview.py
+  ```
+>>>>>>> d8c021aaea02c39524f3c249df9c73572e128055
 ## License
 This project is licensed under the GNU General Public License v3.0.
 
