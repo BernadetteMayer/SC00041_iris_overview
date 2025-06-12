@@ -34,16 +34,28 @@ output_250528_142301.png
 
 ## 🔧 Setting Up the Conda Environment
 
-This project includes a Conda environment specification files (`requirements.yaml`or `exported_env.yaml`) to help you quickly set up the required dependencies.
+This project includes a Conda environment specification files to help you quickly set up the required dependencies.
 
 ### 📥 Create the Environment
 
-```bash
-conda env create -f requirements.yaml
-   
-#alternatively
-conda env create -f exported_env.yaml
+```
+conda env create -f environment.yaml
+```   
+alternatively:
+```
+conda env create -f exported_env_nobuild.yaml
+```
+### Activate the Environment 
 
+```
+conda activate exercise3_new
+```
+
+alternatively: 
+
+```
+conda activate exported_env_nobuild
+```
 
 ### Alternative Pip Requirements
 
@@ -53,15 +65,17 @@ conda env create -f exported_env.yaml
 
 You can install the required package with:
 
-```bash
+```
 pip install seaborn
 ```
 ## Running the Script
 Run the script using:
 
-```bash
+
+```
 python script/iris_overview.py
   ```
+
 ## License
 This project is licensed under the GNU General Public License v3.0.
 
