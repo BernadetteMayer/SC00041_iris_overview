@@ -38,12 +38,13 @@ This project includes a Conda environment specification files (`requirements.yam
 
 ### 📥 Create the Environment
 
-```bash
+```
 conda env create -f requirements.yaml
-   
+```   
 #alternatively
+```
 conda env create -f exported_env.yaml
-
+```
 
 ### Alternative Pip Requirements
 
@@ -53,15 +54,15 @@ conda env create -f exported_env.yaml
 
 You can install the required package with:
 
-```bash
+```
 pip install seaborn
 ```
 ## Running the Script
 Run the script using:
 
-```bash
+```
 python3 iris_overview.py
-  ```
+```
 ## License
 This project is licensed under the GNU General Public License v3.0.
 
