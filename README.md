@@ -39,11 +39,22 @@ This project includes a Conda environment specification files (`requirements.yam
 ### 📥 Create the Environment
 
 ```
-conda env create -f requirements.yaml
+conda env create -f environment.yaml
 ```   
 alternatively:
 ```
-conda env create -f exported_env.yaml
+conda env create -f exported_env_nobuild.yaml
+```
+### Activate the Environment 
+
+```
+conda activate exercise3_new
+```
+
+alternatively: 
+
+```
+conda activate exported_env_nobuild
 ```
 
 ### Alternative Pip Requirements
@@ -60,10 +71,6 @@ pip install seaborn
 ## Running the Script
 Run the script using:
 
-
-```
-python3 iris_overview.py
-```
 
 ```
 python script/iris_overview.py
