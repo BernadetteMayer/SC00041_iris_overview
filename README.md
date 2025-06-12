@@ -34,7 +34,7 @@ output_250528_142301.png
 
 ## 🔧 Setting Up the Conda Environment
 
-This project includes a Conda environment specification files (`requirements.yaml`or `exported_env.yaml`) to help you quickly set up the required dependencies.
+This project includes a Conda environment specification files to help you quickly set up the required dependencies.
 
 ### 📥 Create the Environment
 
